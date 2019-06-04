@@ -1,13 +1,13 @@
 
 square::square(double a){
-	//write your code here 
+	this->side_a = a;
 }
  square::~square(){
  	//write your code here 
 }
 double square::area(){
-	//write your code here 
+	return this->side_a * this->side_a;
 }
 double square::circumference(){
-	//write your code here 
+	return 4.0 * this->side_a;
 }
