@@ -1,13 +1,13 @@
 
 circle::circle(double r){
-	return 0; 
+	this->radius = r; 
 }
 circle::~circle(){
 	//write your code here 
 }
 double circle::area(){
-	//write your code here 
+	return pi * this->radius * this->radius;
 }
 double circle::circumference(){
-	//write your code here 
+	return 2 * pi * this->radius;
 }
