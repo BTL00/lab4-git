@@ -1,6 +1,6 @@
 
 circle::circle(double r){
-	//write your code here 
+	return 0; 
 }
 circle::~circle(){
 	//write your code here 
