@@ -1,13 +1,13 @@
 
 rectangle::rectangle(double a, double b){
- 	//write your code here 
+ 	this->side_a = a; this->side_b = b; 
 }
  rectangle::~rectangle(){
 	//write your code here 
 }
 double rectangle::area(){
-	//write your code here 
+	return this->side_a * this->side_b;
 }
 double rectangle::circumference(){
-	//write your code here 
+	return 2.0 * (this->side_a * this->side_b);
 }
