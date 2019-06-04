@@ -25,7 +25,8 @@ int main() {
 						cout << endl << "Area of a square (a = " << a <<") equals: " << s1.area() << endl; break;}
 			case 6: {	double a; cout << "How long is the side a?: "; cin >> a; square s1(a); 
 						cout << endl << "Circumference of a square (a = " << a <<") equals: " << s1.circumference() << endl; break;}			
-		}
+			default: return 0;	
+	}
 
 
 
