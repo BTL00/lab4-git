@@ -6,8 +6,6 @@ using namespace std;
 int main() {
 	int i;
 	do {
-		cout << "error" ;
-		return 0;
 		cout <<"\t\t\t\tChoose operation:" << endl << "1. Calculate area of a circle. \n2. Calculate circumference of a circle. \n3. Calculate area of a rectangle. \n";
 		cout <<"4. Calculate circumference of a rectangle. \n5. Calculate area of a square. \n6. Calculate circumference of a square.\n 0. Exit\n";
 		cin >> i;
